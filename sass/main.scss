@@ -1,0 +1,167 @@
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    /* font-size: 62.5%; */
+    font-size: 10px;
+}
+
+body {
+    color: #777;
+    font-size: 1.6rem;
+}
+
+.container {
+    margin: 15rem auto;
+    background-color: #BFC0C2;
+    background-color: #f1f2f6;
+    background-image: linear-gradient(315deg, #f1f2f6 0%, #c9c6c6 74%); 
+    width: 120rem;
+    height: 46rem; 
+    border-radius: 15px;
+    padding: 2rem;
+    box-shadow: -4px -3px 3px 1px #888888;
+}
+
+.row-one_keys , .row-two_keys , .row-three_keys , .row-four_keys , .row-five_keys , .row-six_keys{
+    background-color: #F2F3F7;
+    width: 6%;
+    border-radius: 7px;
+    box-shadow: -4px -3px 3px 1px #888888;
+
+    .icon {
+        width: 2rem;
+    }
+    transition: box-shadow .3s;
+
+     &:active {
+    box-shadow: 0px 0px 3px 1px transparent;
+     }
+}
+
+.row {
+    height: 6rem;
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.row-one_keys {
+    background-color: #F2F3F7;
+    
+    width: 7%;
+    height: 50%;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: .8rem;
+    padding-left: .4rem;
+    box-shadow: -4px -3px 3px 1px #888888;
+    /* box-shadow: 1px 1px 2.5px 1px #777;  */
+
+    .keys-f {
+        font-size: 1.4rem;
+    }
+}
+
+
+.margin-middle {
+    margin: 0 auto;
+}
+
+.center {
+    width: 100%;
+    text-align: center;
+}
+
+.right {
+    width: 100%;
+    text-align: right;
+}
+
+.key-numbers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.6rem;
+}
+
+.special-car {
+    margin: .5rem 0;
+}
+
+.delete-key {
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 2rem;
+}
+
+.letter-keys {
+    position: relative;
+    left: 1rem;
+    top: 1rem;
+    font-size: 1.6rem;
+}
+
+.delete-key , .tab-key{
+    width: 8%;
+}
+
+.caps-key , .enter-key {
+    width: 9%;
+}
+
+
+.shift {
+    width: 12%
+}
+
+
+.space {
+    width: 45%;
+}
+
+
+.arrows {
+    width: 12%;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    gap: 1rem;
+}
+
+.arrow-up {
+    position: absolute;
+    background-color: #F2F3F7;
+    width: 30%;
+    height: 40%;
+    left: 50%;
+    top:0;
+    transform: translateX(-50%);
+}
+
+.arrows-key {
+    width: 30%;
+    height: 40%;
+}
+
+
+.arrow-icon {
+    width: 1.6rem;
+    display: block;
+    margin-top: .3rem;
+}
+
+
